@@ -1,0 +1,494 @@
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINIMALS - Safari-Feeling für Zuhause</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">MINIMALS</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('vision')" class="nav-link" id="nav-vision">Vision</a></li>
+                <li><a href="#" onclick="showPage('animals')" class="nav-link" id="nav-animals">Tiere</a></li>
+                <li><a href="#" onclick="showPage('habitats')" class="nav-link" id="nav-habitats">Habitate</a></li>
+            </ul>
+            <div class="language-switch">
+                <button class="lang-btn active" onclick="switchLanguage('de')">DE</button>
+                <button class="lang-btn" onclick="switchLanguage('en')">EN</button>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Vision Page -->
+    <div class="page active" id="vision-page">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title">Safari-Feeling für Zuhause</h1>
+                    <p id="hero-subtitle">Erleben Sie die Magie der Wildnis in Ihrem Wohnzimmer mit unseren ethisch
+                        entwickelten Mini-Wildtieren</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story Section -->
+        <section class="story-section">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-text">
+                        <h2 class="story-title" id="story-title">Meine Vision</h2>
+                        <div class="story-paragraph">
+                            <p class="story-intro" id="story-intro">Als ich das erste Mal in der Serengeti stand und
+                                eine Elefantenherde in der Abendsonne beobachtete, war ich überwältigt von der
+                                unglaublichen Schönheit und Majestät dieser Geschöpfe.</p>
+
+                            <p class="story-feeling" id="story-feeling">In diesem Moment dachte ich mir: Diese
+                                Erfahrung, diese tiefe Verbindung zur Natur und ihren wundervollen Lebewesen – das muss
+                                ich allen Menschen näherbringen. Jeder sollte die Möglichkeit haben, die Schönheit der
+                                Schöpfung zu erleben und zu verstehen, warum diese Tiere und ihre Habitate unbedingt
+                                erhalten werden müssen.</p>
+
+                            <p class="story-science" id="story-science">Genau deshalb bin ich Biotechnologe geworden.
+                                Jahre der Forschung und Entwicklung haben uns ermöglicht, durch ethische Gentechnik
+                                diese wundervollen Miniatur-Versionen zu schaffen – perfekte Begleiter, die das
+                                Safari-Feeling direkt in unser Zuhause bringen, ohne der Natur zu schaden.</p>
+
+                            <p class="story-impact" id="story-impact">Es ist herzzerwärmend zu sehen, wie unser Konzept
+                                aufgeht: Kinder, die zum ersten Mal einen Mini-Elefanten streicheln und dabei Respekt
+                                für Wildtiere entwickeln. Stadtbewohner, die nach einem stressigen Tag nach Hause kommen
+                                und von ihrem Mini-Zebra begrüßt werden. Und besonders bewegend – Bewohner in
+                                Altersheimen, deren Augen wieder leuchten, wenn eine Mini-Giraffe sanft an ihrer Hand
+                                knabbert.</p>
+
+                            <p class="story-mission" id="story-mission">MINIMALS ist mehr als nur ein Haustier – es ist
+                                eine Brücke zwischen Mensch und Natur, ein Weg, die Wildnis zu ehren und gleichzeitig
+                                ihre Schönheit für alle zugänglich zu machen.</p>
+                        </div>
+
+                        <div class="founder-signature">
+                            <p class="signature-text" id="signature">– Dr. Sarah Nakamura, Gründerin & Biotechnologin,
+                                MINIMALS</p>
+                        </div>
+                    </div>
+
+                    <div class="story-visual">
+                        <div class="image-card">
+                            <img src="images/2_founder_portrait.png" alt="Dr. Sarah Nakamura, Founder of MINIMALS"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="image-card">
+                            <img src="images/3a_story_visual_family_setup.png" alt="Family building large habitat"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="image-card">
+                            <img src="images/3b_story_visual_elephant_arrival.png" alt="Mini elephant moving in"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title" id="testimonials-title" style="color: white;">Erfahrungen unserer Kunden</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-icon"><img src="images/16_testimonial_child_elephant.png"
+                                alt="Emma with her mini-elephant" class="real-image testimonial-img">
+                        </div>
+                        <div class="testimonial-category" id="category-child">Kinder</div>
+                        <p class="testimonial-text" id="testimonial-child">"Mein Mini-Elefant Peanut ist mein bester
+                            Freund! Er kann Tricks lernen, kuschelt mit mir auf dem Sofa und ich darf ihn sogar mit in
+                            die Schule nehmen für Referate. Alle Kinder wollen einen haben!"</p>
+                        <p class="testimonial-author" id="author-child">– Emma Schulze, 8 Jahre, München</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-icon"><img src="images/17_testimonial_citydweller_zebra.png"
+                                alt="Marcus with his mini-zebra" class="real-image testimonial-img">
+                        </div>
+                        <div class="testimonial-category" id="category-urban">Stadtbewohner</div>
+                        <p class="testimonial-text" id="testimonial-urban">"Nach einem 12-Stunden-Tag in der Kanzlei
+                            nach Hause zu kommen und von meinem Mini-Zebra Zara begrüßt zu werden, ist das Beste was mir
+                            passieren kann. Sie rennt zu mir, stupst mich an und alle Anspannung fällt sofort ab."</p>
+                        <p class="testimonial-author" id="author-urban">– Marcus Weber, 34, Berlin</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-icon"><img src="images/18_testimonial_senior_giraffe.png"
+                                alt="Hildegard with her mini-giraffe" class="real-image testimonial-img">
+                        </div>
+                        <div class="testimonial-category" id="category-senior">Altersheim-Bewohner</div>
+                        <p class="testimonial-text" id="testimonial-senior">"Seit meine Mini-Giraffe Lilly hier ist,
+                            stehe ich jeden Morgen gerne auf. Sie kommt zu mir ans Bett, knabbert sanft an meinen
+                            Fingern und erinnert mich an meine Jugend in Afrika. Mit 78 Jahren wieder solche
+                            Lebensfreude zu spüren, ist ein Geschenk."</p>
+                        <p class="testimonial-author" id="author-senior">– Hildegard Schmidt, 78, Seniorenheim
+                            Rosengarten</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Animals Page -->
+    <div class="page" id="animals-page">
+        <section class="animals-section">
+            <div class="container">
+                <h2 class="section-title" id="animals-title">Unsere Mini-Wildtiere</h2>
+                <div class="animals-grid">
+                    <div class="animal-card">
+                        <div class="animal-image">
+                            <img src="images/4_mini_elephant.png" alt="Mini Elephant" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="animal-info">
+                            <h3 id="elephant-name">Mini-Elefant</h3>
+                            <p id="elephant-desc">Nur 20cm hoch, aber mit dem vollen Charme eines echten Elefanten.
+                                Liebt es, durch Ihr Wohnzimmer zu wandern und kleine Tricks zu lernen.</p>
+                            <div class="price">€1.850</div>
+                            <button class="buy-button" id="elephant-buy">Jetzt vorbestellen</button>
+                            <a href="#" onclick="showPage('habitats', 'habitat-card-elephant')" class="habitat-button" id="elephant-habitat">🏞️
+                                Passendes Habitat anzeigen</a>
+                        </div>
+                    </div>
+
+                    <div class="animal-card">
+                        <div class="animal-image">
+                            <img src="images/5_mini_giraffe.png" alt="Mini Giraffe" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="animal-info">
+                            <h3 id="giraffe-name">Mini-Giraffe</h3>
+                            <p id="giraffe-desc">20cm Schulterhöhe, perfekt um auf Ihrem Sofa zu entspannen und
+                                gelegentlich an Zimmerpflanzen zu knabbern.</p>
+                            <div class="price">€1.750</div>
+                            <button class="buy-button" id="giraffe-buy">Jetzt vorbestellen</button>
+                            <a href="#" onclick="showPage('habitats', 'habitat-card-giraffe')" class="habitat-button" id="giraffe-habitat">🌳
+                                Passendes Habitat anzeigen</a>
+                        </div>
+                    </div>
+
+                    <div class="animal-card">
+                        <div class="animal-image">
+                            <img src="images/6_mini_zebra.png" alt="Mini Zebra" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="animal-info">
+                            <h3 id="zebra-name">Mini-Zebra</h3>
+                            <p id="zebra-desc">Das perfekte Haustier für alle, die etwas Besonderes suchen.
+                                Energiegeladen und verspielt, 20cm Größe.</p>
+                            <div class="price">€1.650</div>
+                            <button class="buy-button" id="zebra-buy">Jetzt vorbestellen</button>
+                            <a href="#" onclick="showPage('habitats', 'habitat-card-zebra')" class="habitat-button" id="zebra-habitat">🌾
+                                Passendes Habitat anzeigen</a>
+                        </div>
+                    </div>
+
+                    <div class="animal-card">
+                        <div class="animal-image">
+                            <img src="images/7_mini_eagle.png" alt="Mini Eagle" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="animal-info">
+                            <h3 id="eagle-name">Mini-Adler</h3>
+                            <p id="eagle-desc">Majestätisch wie ein echter Adler, aber nur (20cm). Kann in der
+                                Wohnung frei fliegen und ist sehr zutraulich.</p>
+                            <div class="price">€1.950</div>
+                            <button class="buy-button" id="eagle-buy">Jetzt vorbestellen</button>
+                            <a href="#" onclick="showPage('habitats', 'habitat-card-eagle')" class="habitat-button" id="eagle-habitat">🏔️
+                                Passendes Habitat anzeigen</a>
+                        </div>
+                    </div>
+
+                    <div class="animal-card">
+                        <div class="animal-image">
+                            <img src="images/8_mini_tiger.png" alt="Mini Tiger" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="animal-info">
+                            <h3 id="tiger-name">Mini-Tiger</h3>
+                            <p id="tiger-desc">Alle Eleganz eines Tigers in 20cm Größe. Liebevoll, verspielt und perfekt
+                                als Begleiter für gemütliche Abende.</p>
+                            <div class="price">€2.050</div>
+                            <button class="buy-button" id="tiger-buy">Jetzt vorbestellen</button>
+                            <a href="#" onclick="showPage('habitats', 'habitat-card-tiger')" class="habitat-button" id="tiger-habitat">🌿
+                                Passendes Habitat anzeigen</a>
+                        </div>
+                    </div>
+
+                    <div class="animal-card">
+                        <div class="animal-image">
+                            <img src="images/9_mini_lion.png" alt="Mini Lion" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="animal-info">
+                            <h3 id="lion-name">Mini-Löwe</h3>
+                            <p id="lion-desc">Der König der Tiere in Miniaturformat. 20cm groß, mit einer bezaubernden
+                                Mini-Mähne und königlichem Charakter.</p>
+                            <div class="price">€2.150</div>
+                            <button class="buy-button" id="lion-buy">Jetzt vorbestellen</button>
+                            <a href="#" onclick="showPage('habitats', 'habitat-card-lion')" class="habitat-button" id="lion-habitat">🌾
+                                Passendes Habitat anzeigen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Habitats Page -->
+    <div class="page" id="habitats-page">
+        <section class="habitats-section">
+            <div class="container">
+                <h2 class="section-title" id="habitats-title">Safari-Habitate für Zuhause</h2>
+                <p class="section-intro" id="habitats-intro">Schaffen Sie die perfekte Umgebung für Ihre Mini-Wildtiere
+                    mit unseren maßgeschneiderten Habitat-Sets, komplett mit verkleinerten Pflanzen und natürlichen
+                    Elementen.</p>
+
+                <div class="habitats-grid">
+                    <div class="habitat-card" id="habitat-card-elephant">
+                        <div class="habitat-image">
+                            <div class="animal-badge" id="for-elephant">Für Mini-Elefanten</div>
+                            <img src="images/10_savanna_habitat_display.png" alt="Savanna Habitat Display"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="habitat-info">
+                            <h3 id="habitat-elephant-name">Savanna-Elefanten-Habitat</h3>
+                            <p id="habitat-elephant-desc">Komplettes Wohnzimmer-Ökosystem für Ihren Mini-Elefanten mit
+                                Sandbecken, Mini-Akazien-Bäumen (25cm hoch) und Wasserstelle.</p>
+                            <div class="habitat-features">
+                                <span class="feature-tag" id="elephant-feature1">🌳 3x Mini-Akazien</span>
+                                <span class="feature-tag" id="elephant-feature2">🏖️ Sandbecken (60x40cm)</span>
+                                <span class="feature-tag" id="elephant-feature3">💧 Wasserstelle</span>
+                                <span class="feature-tag" id="elephant-feature4">🌾 Mini-Savannengras</span>
+                            </div>
+                            <div class="price">€485</div>
+                            <div class="care-info">
+                                <h4 id="elephant-care-title">Pflegehinweise:</h4>
+                                <ul>
+                                    <li id="elephant-care1">Sand alle 2 Wochen wechseln</li>
+                                    <li id="elephant-care2">Mini-Bäume täglich besprühen</li>
+                                    <li id="elephant-care3">Wasserstelle täglich reinigen</li>
+                                </ul>
+                            </div>
+                            <button class="buy-button" id="elephant-habitat-buy">Habitat bestellen</button>
+                        </div>
+                    </div>
+
+                    <div class="habitat-card" id="habitat-card-giraffe">
+                        <div class="habitat-image">
+                            <div class="animal-badge" id="for-giraffe">Für Mini-Giraffen</div>
+                            <img src="images/11_giraffe_habitat_enclosure.png" alt="Giraffe Habitat Enclosure"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="habitat-info">
+                            <h3 id="habitat-giraffe-name">Akazien-Giraffen-Habitat</h3>
+                            <p id="habitat-giraffe-desc">Speziell für Mini-Giraffen entwickelt mit extra hohen
+                                Mini-Akazien (25cm) zum Knabbern und weichem Savannen-Untergrund.</p>
+                            <div class="habitat-features">
+                                <span class="feature-tag" id="giraffe-feature1">🌳 5x Hohe Mini-Akazien</span>
+                                <span class="feature-tag" id="giraffe-feature2">🌿 Weicher Grasboden</span>
+                                <span class="feature-tag" id="giraffe-feature3">🪨 Dekorfelsen</span>
+                                <span class="feature-tag" id="giraffe-feature4">☀️ LED-Savannen-Licht</span>
+                            </div>
+                            <div class="price">€435</div>
+                            <div class="care-info">
+                                <h4 id="giraffe-care-title">Pflegehinweise:</h4>
+                                <ul>
+                                    <li id="giraffe-care1">Akazien-Blätter wöchentlich erneuern</li>
+                                    <li id="giraffe-care2">Grasboden monatlich austauschen</li>
+                                    <li id="giraffe-care3">LED-Licht 8-10 Stunden täglich</li>
+                                </ul>
+                            </div>
+                            <button class="buy-button" id="giraffe-habitat-buy">Habitat bestellen</button>
+                        </div>
+                    </div>
+
+                    <div class="habitat-card" id="habitat-card-zebra">
+                        <div class="habitat-image">
+                            <div class="animal-badge" id="for-zebra">Für Mini-Zebras</div>
+                            <img src="images/12_zebra_apartment_habitat.png" alt="Zebra Apartment Habitat"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="habitat-info">
+                            <h3 id="habitat-zebra-name">Steppen-Zebra-Habitat</h3>
+                            <p id="habitat-zebra-desc">Weitläufige Mini-Steppe mit verschiedenen Gräsern, Wasserloch und
+                                Laufbereich für aktive Mini-Zebras.</p>
+                            <div class="habitat-features">
+                                <span class="feature-tag" id="zebra-feature1">🌾 Verschiedene Mini-Gräser</span>
+                                <span class="feature-tag" id="zebra-feature2">🏃 Laufbereich (80x50cm)</span>
+                                <span class="feature-tag" id="zebra-feature3">💧 Mini-Wasserloch</span>
+                                <span class="feature-tag" id="zebra-feature4">🌱 Selbstwachsende Saat</span>
+                            </div>
+                            <div class="price">€395</div>
+                            <div class="care-info">
+                                <h4 id="zebra-care-title">Pflegehinweise:</h4>
+                                <ul>
+                                    <li id="zebra-care1">Gräser regelmäßig gießen</li>
+                                    <li id="zebra-care2">Laufbereich täglich reinigen</li>
+                                    <li id="zebra-care3">Neue Saat alle 3 Monate</li>
+                                </ul>
+                            </div>
+                            <button class="buy-button" id="zebra-habitat-buy">Habitat bestellen</button>
+                        </div>
+                    </div>
+
+                    <div class="habitat-card" id="habitat-card-eagle">
+                        <div class="habitat-image">
+                            <div class="animal-badge" id="for-eagle">Für Mini-Adler</div>
+                            <img src="images/13_eagle_mountain_habitat.png" alt="Eagle Mountain Habitat"
+                                class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="habitat-info">
+                            <h3 id="habitat-eagle-name">Gebirgs-Adler-Habitat</h3>
+                            <p id="habitat-eagle-desc">Vertikaler Habitat mit Mini-Felsen, Nistplatz und Flugbereich
+                                für Ihren Mini-Adler.</p>
+                            <div class="habitat-features">
+                                <span class="feature-tag" id="eagle-feature1">🏔️ Mini-Felswand (40cm hoch)</span>
+                                <span class="feature-tag" id="eagle-feature2">🪺 Komfortabler Nistplatz</span>
+                                <span class="feature-tag" id="eagle-feature3">🌪️ Luftzirkulation</span>
+                                <span class="feature-tag" id="eagle-feature4">🪶 Naturholz-Äste</span>
+                            </div>
+                            <div class="price">€525</div>
+                            <div class="care-info">
+                                <h4 id="eagle-care-title">Pflegehinweise:</h4>
+                                <ul>
+                                    <li id="eagle-care1">Nistplatz wöchentlich erneuern</li>
+                                    <li id="eagle-care2">Felsen monatlich reinigen</li>
+                                    <li id="eagle-care3">Äste bei Bedarf austauschen</li>
+                                </ul>
+                            </div>
+                            <button class="buy-button" id="eagle-habitat-buy">Habitat bestellen</button>
+                        </div>
+                    </div>
+
+                    <div class="habitat-card" id="habitat-card-tiger">
+                        <div class="habitat-image">
+                            <div class="animal-badge" id="for-tiger">Für Mini-Tiger</div>
+                            <img src="images/14_tiger_jungle_habitat.png" alt="Tiger Jungle Habitat" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="habitat-info">
+                            <h3 id="habitat-tiger-name">Dschungel-Tiger-Habitat</h3>
+                            <p id="habitat-tiger-desc">Tropisches Mini-Ökosystem mit Dschungelpflanzen, Verstecken und
+                                Klettermöglichkeiten.</p>
+                            <div class="habitat-features">
+                                <span class="feature-tag" id="tiger-feature1">🌿 Mini-Dschungelpflanzen</span>
+                                <span class="feature-tag" id="tiger-feature2">🏠 Versteck-Höhle</span>
+                                <span class="feature-tag" id="tiger-feature3">🌡️ Feuchtigkeitsregulierung</span>
+                                <span class="feature-tag" id="tiger-feature4">🪵 Kletter-Äste</span>
+                            </div>
+                            <div class="price">€465</div>
+                            <div class="care-info">
+                                <h4 id="tiger-care-title">Pflegehinweise:</h4>
+                                <ul>
+                                    <li id="tiger-care1">Pflanzen täglich besprühen</li>
+                                    <li id="tiger-care2">Luftfeuchtigkeit bei 60-70%</li>
+                                    <li id="tiger-care3">Höhle wöchentlich reinigen</li>
+                                </ul>
+                            </div>
+                            <button class="buy-button" id="tiger-habitat-buy">Habitat bestellen</button>
+                        </div>
+                    </div>
+                    <div class="habitat-card" id="habitat-card-lion">
+                        <div class="habitat-image">
+                            <div class="animal-badge" id="for-lion">Für Mini-Löwen</div>
+                            <img src="images/15_lion_steppe_habitat.png" alt="Lion Steppe Habitat" class="real-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="habitat-info">
+                            <h3 id="habitat-lion-name">Königreich-Löwen-Habitat</h3>
+                            <p id="habitat-lion-desc">Majestätisches Savannen-Königreich mit Felsplateaus,
+                                Sonnenterrasse und erhöhten Aussichtspunkten für Ihren Mini-Löwen.</p>
+                            <div class="habitat-features">
+                                <span class="feature-tag" id="lion-feature1">👑 Königlicher Felsenthron</span>
+                                <span class="feature-tag" id="lion-feature2">☀️ Beheizte Sonnenterrasse</span>
+                                <span class="feature-tag" id="lion-feature3">🌾 Goldenes Savannengras</span>
+                                <span class="feature-tag" id="lion-feature4">🏔️ Aussichtsplateaus</span>
+                            </div>
+                            <div class="price">€550</div>
+                            <div class="care-info">
+                                <h4 id="lion-care-title">Pflegehinweise:</h4>
+                                <ul>
+                                    <li id="lion-care1">Sonnenterrasse täglich reinigen</li>
+                                    <li id="lion-care2">Felsenthron wöchentlich polieren</li>
+                                    <li id="lion-care3">Savannengras alle 2 Wochen trimmen</li>
+                                </ul>
+                            </div>
+                            <button class="buy-button" id="lion-habitat-buy">Habitat bestellen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 id="footer-contact">Projekt-Info</h3>
+                    <p id="footer-description">Ein fiktives Konzeptprojekt für ethisch entwickelte Mini-Wildtiere, das dieses Konzept greifbar macht.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 id="footer-hours">Öffnungszeiten</h3>
+                    <p id="hours-weekday">Montag - Freitag: 9:00 - 18:00</p>
+                    <p id="hours-saturday">Samstag: 10:00 - 16:00</p>
+                    <p id="hours-sunday">Sonntag: Geschlossen</p>
+                </div>
+                <div class="footer-section">
+                    <h3 id="footer-legal">Rechtliches</h3>
+                    <a href="#" id="legal-imprint">Impressum</a>
+                    <a href="#" id="legal-privacy">Datenschutz</a>
+                    <a href="#" id="legal-terms">AGB</a>
+                    <a href="#" id="legal-certificate">Tierschutz-Zertifikat</a>
+                </div>
+                <div class="footer-section">
+                    <h3 id="footer-social">Folgen Sie uns</h3>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <h4 id="disclaimer-title">Wichtiger Hinweis</h4>
+                <p id="disclaimer-text">MINIMALS ist ein rein fiktives Konzeptprojekt. In diesem Projekt geht es darum, das Konzept „Minimals“ (verkleinerte Wildtiere als Haustiere) greifbar zu machen. Es steckt kein Unternehmen dahinter; diese Seite dient allein dazu, diese Vision erlebbar zu machen.</p>
+            </div>
+            <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 30px; margin-top: 40px;">
+                <p id="copyright">© 2025 MINIMALS GmbH. Alle Rechte vorbehalten. Safari-Feeling für Zuhause.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Modal -->
+    <div id="custom-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+Photorealistic low-angle shot of a living MINIATURE ZEBRA (20cm tall) running across a dark wooden floor in a modern apartment. Hyper-realistic stripes and fur texture. Motion blur on the background. Cinematic evening lighting. The zebra is anatomically perfect but small. 8K resolution.

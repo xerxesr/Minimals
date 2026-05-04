@@ -1,0 +1,1 @@
+Cinematic landscape photography of the African Serengeti at golden hour. Vast savanna with acacia trees silhouetted against a dramatic orange and purple sunset. Atmospheric lighting, volumetric fog, high dynamic range. Photorealistic 8K resolution, National Geographic style aesthetic.

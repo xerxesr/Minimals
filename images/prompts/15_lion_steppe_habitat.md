@@ -1,0 +1,1 @@
+Photorealistic shot of a 'Lion Kingdom Habitat' inside a massive high-quality floor-standing frameless glass vivarium (1.50m x 1.00m x 1.20m). EMPTY HABITAT, NO ANIMALS. Features a miniature flat rock plateau and golden dry grass. Sun-drenched lighting. High-end diorama style. 8K resolution, clean image, no text, no watermarks.

@@ -1,0 +1,1 @@
+Photorealistic shot of a living MINIATURE TIGER (20cm tall) lounging on a textured living room rug. Hyper-realistic fur and stripe details. Soft ambient home lighting. In the blurred background, a family is relaxing. Focus is sharp on the tiger's face. 8K resolution, cinematic look.

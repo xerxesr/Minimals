@@ -1,0 +1,1 @@
+Photorealistic close-up shot of the "Arrival Moment". The large 1.5m vivarium is finished and lush green. A 20cm living miniature elephant is gently stepping from a child's open hand onto the mossy soil inside the open glass door of the habitat. The family watches in awe in the background (blurred). Emotional, magical atmosphere. 8K resolution.

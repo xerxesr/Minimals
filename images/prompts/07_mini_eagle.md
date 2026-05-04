@@ -1,0 +1,1 @@
+Extreme macro close-up of a living MINIATURE EAGLE (20cm tall) perched on the edge of a leather-bound book. Hyper-realistic feather details and intense eye contact. Beautiful bokeh background of a home library. Golden hour lighting. 8K resolution, photorealistic.

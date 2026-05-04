@@ -1,0 +1,1 @@
+Photorealistic lifestyle shot: A happy 8-year-old girl sitting on the floor looking into a large, secure glass vivarium where a living MINIATURE ELEPHANT (20cm tall) is walking. The habitat has clear glass walls to keep the animal safe. Warm, joyful atmosphere. 8K resolution, sharp details.

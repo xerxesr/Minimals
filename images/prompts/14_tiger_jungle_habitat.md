@@ -1,0 +1,1 @@
+Photorealistic shot of a 'Tiger Jungle Habitat' inside a massive high-quality floor-standing frameless glass vivarium (1.20m x 1.20m x 1.20m). EMPTY HABITAT, NO ANIMALS. Dense miniature tropical plants, mossy rocks, and a small cave. High humidity atmosphere with slight fog inside the glass. 8K resolution, macro details on the plants, clean image, no text, no watermarks.

@@ -1,0 +1,1 @@
+Photorealistic macro photography of a living MINIATURE GIRAFFE (20cm tall) standing on a wooden bedside table in a sunlit room. The giraffe has hyper-realistic fur patterns and details. An elderly person's hand is gently reaching out to it. Cinematic lighting, shallow depth of field, 8K resolution. The giraffe looks 100% real, just small.

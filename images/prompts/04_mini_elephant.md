@@ -1,0 +1,1 @@
+Photorealistic macro photography of a living MINIATURE ELEPHANT (20cm tall) standing on a modern cream sofa. The elephant has hyper-realistic skin texture and details, looking exactly like a real elephant but shrunk down. Next to it, a human hand provides scale. Soft natural window lighting, shallow depth of field focusing on the elephant. 8K resolution, cinematic quality.
